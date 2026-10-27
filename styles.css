@@ -1,1 +1,32 @@
 /* your code */
+body {
+    font-family: Arial, Sans-Serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    border-radius: 12px;
+    border-style: hidden;
+    box-shadow: 0 0 0 0.15px gray;
+    overflow: hidden;
+    margin: auto;
+    padding: 20px;
+}
+
+thead {
+    background-color: #2A5683;
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.left-column {
+    text-align: left;
+    padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
